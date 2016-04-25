@@ -1,0 +1,66 @@
+/*quiz page style*/
+#quiz {
+  background-image: url("../image/dumplings.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-attachment: fixed;
+  background-position: 0% 0%;
+  font-family: 'Rock Salt', sans-serif;
+}
+
+#transpquiz {
+  background-color: white;
+  opacity:0.8;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5), 0 15px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+#transpquiz p {
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: -20px;
+
+}
+
+#transpquiz h2 {
+  text-shadow: 2px 2px gray;
+}
+
+form label {
+  display: block;
+
+}
+
+.correct {
+  font-weight: bold;
+  color: rgb(77,161,96);
+}
+
+#quizquestion {
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  width: 1400px;
+  margin-top: 50px;
+  margin-left: -90px;
+}
+
+#questionlist li {
+  width: 350px;
+  display:inline-block;
+  align-items: center;
+  margin-right: 50px;
+  margin-bottom: 80px;
+
+}
+#quizquestion li p {
+  font-weight: bolder;
+  font-size: 17px;
+}
+#cm {
+  margin-top: 50px;
+}

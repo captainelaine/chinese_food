@@ -1,0 +1,15 @@
+/*contact information page style*/
+
+.textcontact {
+  font-family: 'Josefin Sans', sans-serif;
+}
+.textcontact h2{
+  font-family: 'Rock Salt', sans-serif;
+}
+
+#contact img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 50%;
+}

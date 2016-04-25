@@ -1,0 +1,19 @@
+
+/*whole page main style*/
+
+body {
+ text-align: center;
+  font-family: 'Amiri', sans-serif;
+}
+
+section {
+  margin-top: 0;
+}
+
+
+h1 {
+  font-family: 'Rock Salt', sans-serif;
+  font-size: 60px;
+  margin-top: 300px;
+  text-shadow: 3px 3px white;
+}

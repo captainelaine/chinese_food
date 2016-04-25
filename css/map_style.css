@@ -1,0 +1,96 @@
+#mappage {
+  text-align: center;
+  background-image: url("../image/backmap.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-attachment: fixed;
+  background-position: center center;
+
+
+}
+#mapintro {
+  margin-top: 80px;
+  float:left;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 80px;
+  color: white;
+}
+
+#mappage h2{
+  margin-top:22px;
+  font-family: 'Rock Salt', sans-serif;
+  text-shadow: 3px 3px black;
+}
+#mappage p {
+  margin-top: 20px;
+  width: 400px;
+
+  line-height: 25px;
+
+}
+
+#chinamap {
+  width:68%;
+  margin-left: 500px;
+  margin-right: -100px;
+
+
+}
+.province {
+  opacity: 0.5;
+}
+
+#discover {
+  font-family: 'Rock Salt', sans-serif;
+  text-shadow: 3px 3px black;
+}
+
+#shanghaiback {
+ float:right;
+ margin-top: -48px;
+ margin-right: 40px;
+}
+
+#yunnanback {
+  float:right;
+  margin-top: -48px;
+  margin-right: 290px;
+}
+#hunanback {
+  float:right;
+  margin-top: -48px;
+  margin-right: 40px;
+}
+
+#chunjuanol {
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10%;
+  border: lightgray solid 2px;
+  float: right;
+  margin-top: 20px;
+}
+
+#mixianol {
+  width: 280px;
+  height: 200px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10%;
+  border: lightgray solid 2px;
+  float: left;
+  margin-top: 40px;
+}
+
+#chaorouol {
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10%;
+  border: lightgray solid 2px;
+  float: right;
+  margin-top: 20px;
+}
