@@ -34,9 +34,9 @@
 
      <div id="mappage">
        <div id="mapintro">
-       <h2>Select One Provience!</h2>
-       <p>It will lead you to the most famous food of this provience!</p>
-       <p>Chinese delicious food are styled from the diverse regions of China. China has 23 provinces, 5 autonomous regions, 4 municipalities under the Central Government and two special administration regions.</br>Each of them has their own famous and delicious food, for example, people in the South West of China love food with spicy taste, however, citizens in Shanghai loves sweet taste more.</p>
+       <h2>Select One Province!</h2>
+       <p>It will lead you to the most famous food of this province!</p>
+       <p>Different regions of China has their different food. China has 23 provinces, 5 autonomous regions, 4 municipalities under the Central Government and two special administration regions.</br>Each of them has their own famous food, for example, people in the South West of China love food with spicy taste, however, most citizens in Shanghai love sweet taste more.</p>
        <p id="discover">Discover fascinating food with us now!</p>
      </div>
        <div id="chinamap">
@@ -769,11 +769,11 @@
       </svg>
       <div id="shanghaioverlay">
         <div id="shanghaibig">
+
              <p id="sholtitle">Shanghai's Spring Roll</p>
              <a href='#mappage' onclick='overlayshanghai()'><i id="shanghaiback" class="fa fa-arrow-circle-right fa-2x" aria-hidden="true"></i></a>
-             <p id="introchunjuan">Spring Roll is a traditional shanghai snake, it is made with a round, thin dough sheet with different kinds of fillings rolled inside and fried in oil. People of Shanghai usually eat it for breakfast and during every festival with their families.</br><span class="ingre">Ingredients:</br></span>Spring Roll Pastry, Bean Sprout, Cubed Pork, Chives.</br><span class="ingre">Flovoring:</br></span>Salt, Soy Sauce, White Prepper Ground, Olive Oil.</p>
-
-             <img src="image/chunjuan.png" alt="chunjuan" id="chunjuanol">
+             <p id="introchunjuan">Spring Roll is a traditional shanghai snake, it is made by a round, thin dough sheet with different kinds of fillings rolled inside. People in Shanghai usually eat it for breakfast.</br><span class="ingre">Ingredients:</br></span>Spring Roll Pastry, Bean Sprout, Cubed Pork, Chives.</br><span class="ingre">Flovoring:</br></span>Salt, Soy Sauce, White Prepper Ground, Olive Oil.</p>
+             <div id="shanghaimap"></div>
              <div id="shvideo-container">
 
                <video id="springVideo" poster="image/chunjuanpage.png" preload="none">
@@ -793,7 +793,9 @@
 
                </div>
              </div>
-             <div id="shanghaimap"></div>
+            <img src="image/chunjuan.png" alt="chunjuan" id="chunjuanol">
+
+
 
         </div>
       </div>
@@ -801,8 +803,9 @@
         <div id="yunnanbig">
              <p id="ynoltitle">Yunnan's Noodle</p>
              <a href='#mappage' onclick='overlayyunnan()'><i id="yunnanback" class="fa fa-arrow-circle-right fa-2x" aria-hidden="true"></i></a>
-            <p id="intromixian">Rice noodle is one of the most famous traditional food in the Yunnan Province. Guoqiao Mixian, which is often translated as cross the bridge noodles literally, is the most famous one aroung the world. There are many other interesting rice noodles bowls which are also very popular in the province of Yunnan.</br><span class="ingre">Ingredients:</br></span>Rice noodles, Chives, Cubed Pork, Tomato, Chinese Sauerkraut, Caraway.</br><span class="ingre">Flovoring:</br></span>Salt, Soy Sauce, Sesameseed Oil, Olive Oil.</p>
-            <img src="image/mixianback.png" alt="mixian" id="mixianol">
+            <p id="intromixian">Rice noodle is one of the most famous traditional food in Yunnan Province. Guoqiao Mixian, which is often translated as cross the bridge noodles literally, is the most famous one around the world. There are many other interesting tastes of rice noodles which are also very popular in Yunnan province.</br><span class="ingre">Ingredients:</br></span>Rice noodles, Chives, Cubed Pork, Tomato, Chinese Sauerkraut, Caraway.</br><span class="ingre">Flovoring:</br></span>Salt, Soy Sauce, Sesameseed Oil, Olive Oil.</p>
+              <div id="yunnanmap"></div>
+
             <div id="ynvideo-container">
 
               <video id="noodleVideo" poster="image/mixian.png" preload="none">
@@ -822,15 +825,17 @@
 
               </div>
             </div>
-            <div id="yunnanmap"></div>
+            <img src="image/mixianback.png" alt="mixian" id="mixianol">
+
         </div>
       </div>
       <div id="hunanoverlay">
         <div id="hunanbig">
              <p id="hnoltitle">Hunan's fried meat</p>
                <a href='#mappage' onclick='overlayhunan()'><i id="hunanback" class="fa fa-arrow-circle-right fa-2x" aria-hidden="true"></i></a>
-               <p id="introchaorou">People live in Hunna Province love eating spicy food specially, thus their famous food: Hunan fried meat is spicy too. The pork pieces mixed with cook wine and pepper are very delicious and suitable for both lunch and dinner.</br><span class="ingre">Ingredients:</br></span>Pork pieces, Red pepper/Green pepper/Yellow pepper, Ginger, Green Onion.</br><span class="ingre">Flovoring:</br></span>Salt, Soy Sauce, Tapioca starch, Yellow Rice Wine, Olive Oil.</p>
-               <img src="image/chaorouback.png" alt="chaorou" id="chaorouol">
+               <p id="introchaorou">People live in Hunna Province love eating spicy food specially, thus their famous food: Hunan fried meat is spicy too. These pork pieces mixed with cook wine and pepper are very delicious and suitable for both lunch and dinner.</br><span class="ingre">Ingredients:</br></span>Pork pieces, Red pepper/Green pepper/Yellow pepper, Ginger, Green Onion.</br><span class="ingre">Flovoring:</br></span>Salt, Soy Sauce, Tapioca starch, Yellow Rice Wine, Olive Oil.</p>
+                <div id="hunanmap"></div>
+
                <div id="hnvideo-container">
 
                  <video id="hunanVideo" poster="image/chaorou.png" preload="none">
@@ -850,7 +855,8 @@
 
                  </div>
                </div>
-             <div id="hunanmap"></div>
+               <img src="image/chaorouback.png" alt="chaorou" id="chaorouol">
+
 
         </div>
       </div>
@@ -912,7 +918,7 @@
          </form>
        </li>
        <li id="spicy">
-         <p>Does people in Chongqing province eat spicy food?</p>
+         <p>Do people in Chongqing province eat spicy food?</p>
          <form action="">
            <label><input type="radio" name="q5" value="6A" /> Yes</label>
            <label><input type="radio" name="q5" value="6B" /> No</label>
@@ -927,7 +933,7 @@
          </form>
       </li>
       <li id="cursine">
-         <p>How many major Cuisines does Chinese have?</p>
+         <p>How many Cuisine does Chinese have?</p>
          <form action="">
            <label><input type="radio" name="q7" value="8A" /> 5</label>
            <label><input type="radio" name="q7" value="8B" /> 8</label>
@@ -954,8 +960,8 @@
        <img src="image/contact.png" alt="mypic">
      </span>
      <div class = "textcontact">
-       <h2>Do not hestiate to contact us!</h2>
-       <p>Web made by Zhou Fang</br>Email: zxf76@miami.edu</br><a href="http://zxf76.me">Personal home page</a></p>
+       <h2>Do not hestiate to contact me!</h2>
+       <p>Web made by Zhou Fang</br>Email: zxf76@miami.edu</br><a href="http://captainelainefz.wixsite.com/zhoufang">Personal home page</a></p>
        <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
      </div>
    </div>
