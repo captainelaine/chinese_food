@@ -6,29 +6,37 @@ body {
 
 video {
   border: 1px solid #222;
-  width: 350px;
+  width: 100%;
   height: auto;
 
 }
 
 #shvideo-container {
-  max-width:350px;
-  margin-top: -50px;
+  clear:both;
+  width:40%;
+  margin-top: 2%;
+
   float: left;
-  margin-left: 240px;
+  margin-left: 5%;
+}
+
+#springvideo {
+  width: 100%;
 }
 
 #ynvideo-container {
-  max-width:350px;
-  margin-top: 0px;
-  float: right;
-  margin-right: 270px;
+  clear:both;
+  width:40%;
+  margin-top: 2%;
+  float: left;
+  margin-left: 5%;
 }
 #hnvideo-container {
-  max-width:300px;
-  margin-top: -30px;
+    clear:both;
+  width:40%;
+  margin-top: 2%;
   float: left;
-  margin-left: 240px;
+  margin-left: 5%;
 }
 
 
@@ -38,13 +46,13 @@ video {
 
 #volume {
   float: right;
-  margin-right: -10px;
+  margin-right: -2%;
 
 }
 
 #hunanvolume {
   float: right;
-  margin-right: -50px;
+  margin-right: -2%;
 }
 #hunancontrol {
   float: left;
